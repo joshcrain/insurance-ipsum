@@ -11,8 +11,8 @@
 	* {margin:0}
 	
 	body {padding:var(--size-fluid)}
-	header, main {max-width: 120ch;margin-left: auto;margin-right: auto;}
-	header {padding: var(--size-fluid) 0;}
+	header, main, footer {max-width: 120ch;margin-left: auto;margin-right: auto;}
+	header, footer {padding: var(--size-fluid) 0;}
 	.controls {display: flex;gap:1rem;align-items: center;margin-bottom: var(--size-fluid);}
 	#output{padding:var(--size-fluid);border:1px solid #DDD;border-radius: .25rem;}
 	#output * + * {margin-top: 1rem;}
@@ -43,7 +43,9 @@
 		  
 			<div id="output"></div>
 	</main>
-
+	<footer>
+		<a href="https://github.com/joshcrain/insurance-ipsum">View on Github</a>
+	</footer>
 
   <script>
 	const insuranceTerms = [
